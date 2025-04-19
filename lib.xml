@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="http://mycompany.example/mylib" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/anonymous-author-11/0install-testing/refs/heads/main/lib.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>MyHelloLib</name>
   <summary xml:lang="en">Provides the hello message (Remote Version)</summary>
   <implementation version="0.1.4" released="2025-04-19" id="sha256new_HDFONZDIS4N7NHOFCGOPNYP5TC3CTMG5KQ3EKCVSQKE7R3UPCUVQ">
