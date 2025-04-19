@@ -1,0 +1,16 @@
+<!-- Hypothetical content of https://github.com/user/repo/blob/v0.1.3/lib.xml -->
+<?xml version="1.0" ?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface"
+           uri="http://mycompany.example/mylib"> <!-- The library's canonical identifier -->
+  <name>MyHelloLib</name>
+  <summary>Provides the hello message (Remote Version)</summary>
+
+  <implementation version="{version}"> <!-- Real digest of the extracted archive -->
+    <!-- Points to the downloadable archive for this tag -->
+    <archive href="https://github.com/anonymous-author-11/0install-testing/archive/refs/tags/v{version}.zip"
+             extract="0install-testing-{version}" /> <!-- Crucial: GitHub archives often have a top-level dir -->
+  </implementation>
+
+  <!-- Could have older/other versions here too -->
+
+</interface>
