@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/anonymous-author-11/0install-testing/refs/heads/main/lib.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>MyHelloLib</name>
   <summary xml:lang="en">Provides the hello message (Remote Version)</summary>
@@ -7,3 +8,7 @@
     <archive href="https://github.com/anonymous-author-11/0install-testing/archive/refs/tags/v0.1.4.zip" size="3263" type="application/zip" extract="0install-testing-0.1.4" />
   </implementation>
 </interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJoA5frAAoJEHRbTseggy0ZUxoH/iG8oNJc2Dp0lg/7/1RsyRCMgVodPgxzmS8zt2nVDK4lV9WZOUU1nxq6z+a8LA6tUSVnkRMgHbv+76JaJKYRNdyPHelbeDMiV7FBePlZhfYNjMjldZuQ1P6+QMGXRTdBrw37yP5vnI88n/mSBTRFZaVGVX7mfSt6fK1z6FhJ44rWOUCTg8/J2KTSVqiRfEI5lpnBn7ywSTLQ02fbv3cyeGt9JtKVmHwzvrS2IvZNgEmmnQB+hthrx1zS9GSAjT0QWaBuBoVRplzatnkAZe1TwtFmaC6nyrNFF/UCx6VqerIi72SvsaQ9A0E71Ds4InxCfnf1e3z1SeKIoDu4uYCcc5I=
+
+-->
